@@ -1,0 +1,40 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive, sans-serif; /* A retro-style font */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #FFFF00; /* Yellow */
+    text-shadow: 2px 2px 4px #FF0000; /* Red shadow */
+}
+
+.game-container {
+    position: relative;
+    border: 2px solid #0000FF; /* Blue border */
+    box-shadow: 0 0 20px #0000FF;
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+}
+
+#score-container {
+    position: absolute;
+    top: -30px; /* Position score above the canvas */
+    left: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* You might want to import a pixel-style font in a real project */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
